@@ -48,5 +48,17 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "^3.7.5"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aramex86/angular-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aramex86/angular-practice/issues"
+  },
+  "homepage": "https://github.com/Aramex86/angular-practice#readme"
 }

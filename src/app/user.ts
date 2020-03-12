@@ -1,7 +1,7 @@
 export class User {
-    constructor(
-        firstName: string,
-        email: string,
-        country?: string // ? -> optional
-    ) {}
+  constructor(
+    public firstName: string,
+    public email: string,
+    public country ? : string // ? -> optional
+  ) {}
 }
