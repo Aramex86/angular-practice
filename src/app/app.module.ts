@@ -11,6 +11,7 @@ import { ProductComponent } from './product/product.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductService } from './service/product.service';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { UserFormComponent } from './user-form/user-form.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
     ProductComponent,
     ProductsComponent,
     JumbotronComponent,
+    UserFormComponent,
   ],
   imports: [
     BrowserModule,

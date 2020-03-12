@@ -1,4 +1,7 @@
 <h2>{{title}}</h2>
+<app-jumbotron>
+    This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information. 
+</app-jumbotron>
 <div *ngIf="products.length > 0">
     <div *ngFor="let product of products" style="width: 50%;">
         <app-product [data] ="product"></app-product>
