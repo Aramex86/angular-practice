@@ -9,6 +9,8 @@ import { User } from '../user';
 })
 export class UserFormComponent implements OnInit {
 
+  title ="Two-way data binding with ngModel"
+
   countries = ['USA', 'UK', 'Singapore', 'Australia'];
 
   model = new User('', '', '');

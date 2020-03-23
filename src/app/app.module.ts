@@ -12,6 +12,8 @@ import { ProductsComponent } from './products/products.component';
 import { ProductService } from './service/product.service';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { UserFormComponent } from './user-form/user-form.component';
+import { LoginUserComponent } from './login-user/login-user.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,14 @@ import { UserFormComponent } from './user-form/user-form.component';
     ProductsComponent,
     JumbotronComponent,
     UserFormComponent,
+    LoginUserComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [
     ProductService
