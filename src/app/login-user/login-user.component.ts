@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup , /*  FormControl, */ Validators} from '@angular/forms';
+import {FormBuilder, FormGroup ,Validators} from '@angular/forms';
+import { PasswordValidator } from './../passwordValodator';
 
 @Component({
   selector: 'app-login-user',
@@ -10,6 +11,8 @@ export class LoginUserComponent implements OnInit {
 
   title = 'Model Driven Forms';
 
+  title2 = 'Implementing Custom Validation';
+
   /* form = new FormGroup({
     username: new FormControl('', Validators.required),
     password: new FormControl('', Validators.required),
@@ -19,7 +22,8 @@ export class LoginUserComponent implements OnInit {
   constructor(fb: FormBuilder) {
       this.form = fb.group({
         username: ['', Validators.required],
-        password: ['', Validators.required]
+        password: ['', Validators.compose([Validators.required,
+           PasswordValidator.cannotContainSpace])]
       });
 
    }

@@ -14,6 +14,7 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { UserFormComponent } from './user-form/user-form.component';
 import { LoginUserComponent } from './login-user/login-user.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CustomValidationComponent } from './custom-validation/custom-validation.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     JumbotronComponent,
     UserFormComponent,
     LoginUserComponent,
+    CustomValidationComponent,
   ],
   imports: [
     BrowserModule,
